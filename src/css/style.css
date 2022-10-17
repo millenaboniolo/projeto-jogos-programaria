@@ -1,0 +1,185 @@
+body {
+    text-align: center;
+    font-size: Open-sans, sans-serif;
+    background-color: #93c0f3;
+    color: #ffffff;
+    margin: 0px 0px 30px 0px;
+    background-image: url(https://www.kibrispdr.org/data/14/background-tumblr-gif-3.gif), url("shine.gif");
+
+}
+ 
+
+h1{
+    color: rgb(241, 148, 221);
+    font-size: 60px;
+    padding: 50px;
+    text-shadow: 2px 2px  #080808;
+}
+
+
+img{
+    width: 80%;
+ }
+
+a {
+    color: #ffc0cb;
+    text-decoration: none;
+}
+
+.menu-jogos{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menujogos{
+    background: white;
+    border-radius: 40px;
+    padding: 10px;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.925);
+}
+
+
+.menu-jogos ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 13px 35px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 0.5s;
+}
+
+.menujogos ul li a{
+    color: rgb(245, 146, 203);
+    text-decoration: none; 
+    
+}
+
+.menujogos ul li a::after{
+    content: '';
+    background: #f44566;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
+        
+}
+
+
+.menujogos ul li a:hover{
+    color: #ffffff;
+}
+
+
+.menujogos ul li a:hover::after{
+    top: 50%;opacity: 1;
+}
+
+
+
+h2{ 
+    color: #ee5fc3;
+    text-shadow: 2px 2px  #f7f5f54d;
+    padding: 50px 0px 30px 0px; 
+    font-size: 35px;
+
+}
+
+
+p{
+    line-height: 1.5;
+    font-size: 20px;
+    
+    
+   
+  }
+
+  .title{
+    color: rgb(245, 146, 203);
+    text-shadow: 1px 1px  #080808;
+}
+
+  section{
+    width: 60%;
+    margin:0 auto;
+       
+}
+
+section section{
+width: 100%;
+}
+
+h3{
+    font-size:25px;
+    font-style: italic;
+    padding-top: 30px;
+  }
+
+  .outras-protagonistas{
+    color: #ee5fc3;
+    text-shadow: 2px 2px  #f3ecec5d;
+    
+   
+
+  }
+
+  
+  .menu-outrosjogos{
+   
+    border-radius: 30px;
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+  }
+  
+  .menu-outrosjogos ul li{
+    list-style: none;
+     padding: auto;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+   
+  }
+
+  .menu-outrosjogos ul li a{
+    color: rgba(241, 237, 240, 0.925);
+    text-decoration: none; 
+    
+}
+
+h4{ 
+    color: #f44566;
+    text-shadow: 2px 2px  #1312125d;
+    font-size:20px;
+    font-style: bold;
+    padding-top: 30px;
+}
+
+
+  button{
+    background-color: #f44566;
+    color: #f5f6f7ec;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 2px 20px;
+  }
+
+
+  
